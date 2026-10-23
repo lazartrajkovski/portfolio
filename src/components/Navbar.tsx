@@ -3,13 +3,15 @@ function NavBar() {
     const sections = ["./home", "./about", "./services", "./contact"];
 
     return <>
-        <nav className="px-8 py-4">
-            <ul className="flex gap-6 justify-end text-sm">
-            {sections.map((section) => (
-                <li key={section}><a href="#" className="hover:text-[#ff1f3d]">{section}</a></li>
-            ))}
-            </ul>
-        </nav>
+        <header className="sticky top-0 border-b border-line bg-surface/85 backdrop-blur">
+            <nav className="mx-auto max-w-7xl px-6 py-4">
+                <ul className="flex gap-6 justify-end text-sm">
+                    {sections.map((section) => (
+                        <li key={section}><a href="#" className="hover:text-accent">{section}</a></li>
+                    ))}
+                </ul>
+            </nav>
+        </header>
     </>
 }
 

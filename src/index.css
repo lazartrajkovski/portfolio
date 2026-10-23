@@ -2,4 +2,8 @@
 
 @theme {
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-surface: #0b0b0c;
+  --color-line: #27272b;
+  --color-muted: #8d8d93;
+  --color-accent: #ff1f3d;
 }
