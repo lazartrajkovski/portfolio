@@ -1,6 +1,12 @@
 import Monitor from './Monitor'
 
 function Hero() {
+  const actions = [
+    { label: './resume', href: './LazarTrajkovski_CV.pdf' },
+    { label: '~/projects', href: '#projects' },
+    { label: 'mail lazar', href: 'mailto:lazar.trajkovski@hotmail.com' },
+  ]
+
   return (
     <>
       <section
@@ -29,6 +35,18 @@ function Hero() {
             clean, responsive interfaces and writing maintainable code that's
             easy for others to work with.
           </p>
+          <div className="flex flex-wrap gap-3 text-sm">
+            {actions.map((action) => (
+              <a
+                key={action.label}
+                href={action.href}
+                target="_blank"
+                className="border-line hover:border-accent hover:text-accent border px-4 py-2.5 text-neutral-200 transition"
+              >
+                {action.label}
+              </a>
+            ))}
+          </div>
         </div>
         <Monitor />
       </section>
