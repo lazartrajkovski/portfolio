@@ -10,7 +10,7 @@ function NavBar() {
 
   return (
     <>
-      <header className="border-line bg-surface/85 sticky top-0 border-b backdrop-blur">
+      <header className="border-line bg-surface/85 sticky top-0 z-50 border-b backdrop-blur">
         <nav className="mx-auto max-w-6xl px-4 py-4">
           <ul className="flex justify-end gap-6 text-[13px]">
             {sections.map((section) => (
