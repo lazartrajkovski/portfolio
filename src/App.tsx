@@ -1,6 +1,7 @@
 import NavBar from './components/Navbar'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <Hero />
       <Experience />
+      <Projects />
     </>
   )
 }
