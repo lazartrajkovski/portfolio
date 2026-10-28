@@ -23,9 +23,9 @@ function About() {
             <p>
               I'm Lazar, a software engineer with a genuine curiosity for
               computer science and a passion for building things people actually
-              use. Most of my work is on the web, where I enjoy figuring out how
-              things work, solving interesting problems, and building software
-              that's clean, maintainable, and enjoyable to use.
+              use. Most of my work is on the web, where I enjoy solving
+              interesting problems and creating software that's thoughtful,
+              reliable, and easy to maintain.
             </p>{' '}
             <p>
               Outside of work, I've recently started experimenting with game
