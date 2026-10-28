@@ -27,7 +27,7 @@ function Projects() {
         className="border-line mx-auto max-w-6xl border-t px-4 py-20"
       >
         <p className="text-muted mb-2 text-sm">
-          <span className="text-accent">~/projects</span>: $ ls
+          <span className="text-accent">~/projects</span> $ ls
         </p>
         <h2 className="mb-10 text-3xl font-extrabold text-neutral-100">
           Projects

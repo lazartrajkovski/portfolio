@@ -22,7 +22,7 @@ function Skills() {
         className="border-line mx-auto max-w-6xl border-t px-4 py-20"
       >
         <p className="text-muted mb-2 text-sm">
-          <span className="text-accent">~/skills</span>: $ cat stack.txt
+          <span className="text-accent">~/skills</span> $ cat stack.txt
         </p>
         <h2 className="mb-10 text-3xl font-extrabold text-neutral-100">
           Skills
