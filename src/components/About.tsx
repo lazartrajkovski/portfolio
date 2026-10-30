@@ -2,7 +2,6 @@ function About() {
   const details = [
     { label: 'based in', value: 'Skopje, North Macedonia' },
     { label: 'languages', value: 'English, Macedonian' },
-    { label: 'interests', value: 'Running, NBA, Gaming, Music' },
     { label: 'exploring', value: 'Game Development, Linux, DevOps' },
     { label: 'status', value: 'open to work', highlight: true },
   ]
