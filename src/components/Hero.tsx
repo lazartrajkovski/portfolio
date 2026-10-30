@@ -2,9 +2,13 @@ import Monitor from './Monitor'
 
 function Hero() {
   const actions = [
-    { label: './resume', href: './LazarTrajkovski_CV.pdf' },
-    { label: '~/projects', href: '#projects' },
-    { label: 'mail lazar', href: 'mailto:lazar.trajkovski@hotmail.com' },
+    { label: './resume', href: './LazarTrajkovski_CV.pdf', external: true },
+    { label: '~/projects', href: '#projects', external: false },
+    {
+      label: 'mail lazar',
+      href: 'mailto:lazar.trajkovski@hotmail.com',
+      external: true,
+    },
   ]
 
   return (
@@ -40,7 +44,8 @@ function Hero() {
               <a
                 key={action.label}
                 href={action.href}
-                target="_blank"
+                target={action.external ? '_blank' : undefined}
+                rel={action.external ? 'noreferrer' : undefined}
                 className="border-line hover:border-accent hover:text-accent border px-4 py-2.5 text-neutral-200 transition"
               >
                 {action.label}
