@@ -5,7 +5,7 @@ function Skills() {
       skills: ['C#', 'JavaScript', 'TypeScript', 'PHP', 'SQL'],
     },
     {
-      label: '# frameworks & librarires',
+      label: '# frameworks & libraries',
       skills: ['.NET', 'React', 'Angular', 'Tailwind'],
     },
     { label: '# databases', skills: ['SQL Server', 'MySQL', 'PostgreSQL'] },
