@@ -13,7 +13,7 @@ function Contact() {
     <>
       <section
         id="contact"
-        className="border-line mx-auto max-w-6xl border-t px-4 py-20"
+        className="border-line mx-auto max-w-6xl border-t px-4 pt-10 pb-12"
       >
         <p className="text-muted mb-2 text-sm">
           <span className="text-accent">~/contact</span> $ ./say-hello.sh

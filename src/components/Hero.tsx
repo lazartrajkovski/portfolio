@@ -15,7 +15,7 @@ function Hero() {
     <>
       <section
         id="home"
-        className="mx-auto grid max-w-6xl items-center gap-12 px-4 py-16 lg:grid-cols-[1.25fr_1fr] lg:py-24"
+        className="mx-auto grid max-w-6xl items-center gap-12 px-4 pt-12 pb-12 lg:grid-cols-[1.25fr_1fr] lg:pt-12 lg:pb-12"
       >
         <div className="flex flex-col items-start gap-6">
           <p className="text-muted flex items-center gap-3 text-[11px] tracking-[0.2em] uppercase">

@@ -40,7 +40,7 @@ function Experience() {
     <>
       <section
         id="experience"
-        className="border-line mx-auto max-w-6xl border-t px-4 py-20"
+        className="border-line mx-auto max-w-6xl border-t px-4 pt-10 pb-12"
       >
         <p className="text-muted mb-2 text-sm">
           <span className="text-accent">~/experience</span> $ git log --oneline

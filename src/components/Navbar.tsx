@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 function NavBar() {
   const sections = [
@@ -11,6 +11,31 @@ function NavBar() {
   ]
 
   const [activeSection, setActiveSection] = useState('home')
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isAtBottom =
+        window.innerHeight + window.scrollY >=
+        document.documentElement.scrollHeight - 10
+
+      if (isAtBottom) {
+        setActiveSection('contact')
+        return
+      }
+
+      document
+        .querySelectorAll<HTMLElement>('section[id]')
+        .forEach((section) => {
+          if (window.scrollY >= section.offsetTop - 175) {
+            setActiveSection(section.id)
+          }
+        })
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
     <>

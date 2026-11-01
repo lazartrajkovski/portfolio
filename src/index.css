@@ -7,3 +7,11 @@
   --color-muted: #8d8d93;
   --color-accent: #ff1f3d;
 }
+
+section[id] {
+  scroll-margin-top: 4rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
