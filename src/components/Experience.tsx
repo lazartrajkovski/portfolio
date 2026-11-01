@@ -17,7 +17,7 @@ function Experience() {
         'MySQL',
       ],
       highlights: [
-        'Developed features and resolved bugs in PHP and AngularJS services, including form enhancements and changes supporting LFPSE reporting requirements.',
+        'Developed features and resolved bugs in PHP and AngularJS services, including form enhancements and changes supporting LFPSE reporting requirements',
         'Extended a .NET-based NHS incident reporting service with FHIR R4 support, mapping Kafka Protobuf messages to the new FHIR format while maintaining compatibility with FHIR R3',
         'Refactored the PSIMS codebase into modular class libraries, improving maintainability and separation of concerns',
         'Extended LFPSE reporting capabilities in the DES service by updating database schemas, Entity Framework models, and SQL queries to support additional reporting fields',
