@@ -1,10 +1,11 @@
+const details = [
+  { label: 'based in', value: 'Skopje, North Macedonia' },
+  { label: 'languages', value: 'English, Macedonian' },
+  { label: 'exploring', value: 'Linux, DevOps, Game Development' },
+  { label: 'status', value: 'open to work', highlight: true },
+]
+
 function About() {
-  const details = [
-    { label: 'based in', value: 'Skopje, North Macedonia' },
-    { label: 'languages', value: 'English, Macedonian' },
-    { label: 'exploring', value: 'Linux, DevOps, Game Development' },
-    { label: 'status', value: 'open to work', highlight: true },
-  ]
   return (
     <>
       <section

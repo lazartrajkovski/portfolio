@@ -1,14 +1,15 @@
+const links = [
+  {
+    label: 'Email',
+    href: 'mailto:lazar.trajkovski@hotmail.com',
+  },
+  {
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/lazar-trajkovski/',
+  },
+]
+
 function Contact() {
-  const links = [
-    {
-      label: 'Email',
-      href: 'mailto:lazar.trajkovski@hotmail.com',
-    },
-    {
-      label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/lazar-trajkovski/',
-    },
-  ]
   return (
     <>
       <section

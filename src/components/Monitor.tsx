@@ -1,13 +1,13 @@
 import styles from './Monitor.module.css'
 
-function Monitor() {
-  const specs = [
-    { label: '~/experience', value: '4+ years · Software Engineer' },
-    { label: '~/stack', value: '.NET · C# · React · Angular · TypeScript' },
-    { label: '~/education', value: 'B.Sc. Software Engineering' },
-    { label: '~/location', value: 'Skopje, North Macedonia' },
-  ]
+const specs = [
+  { label: '~/experience', value: '4+ years · Software Engineer' },
+  { label: '~/stack', value: '.NET · C# · React · Angular · TypeScript' },
+  { label: '~/education', value: 'B.Sc. Software Engineering' },
+  { label: '~/location', value: 'Skopje, North Macedonia' },
+]
 
+function Monitor() {
   return (
     <>
       <div

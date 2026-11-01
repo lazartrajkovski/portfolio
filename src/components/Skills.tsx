@@ -1,20 +1,22 @@
-function Skills() {
-  const skillGroups = [
-    {
-      label: '# languages',
-      skills: ['C#', 'JavaScript', 'TypeScript', 'PHP', 'SQL'],
-    },
-    {
-      label: '# frameworks & libraries',
-      skills: ['.NET', 'React', 'Angular', 'Tailwind'],
-    },
-    { label: '# databases', skills: ['SQL Server', 'MySQL', 'PostgreSQL'] },
-    {
-      label: '# tools & platforms',
-      skills: ['Git', 'Datadog', 'Docker', 'Linux'],
-    },
-  ]
+import type { SkillGroup } from '../models/SkillGroup'
 
+const skillGroups = [
+  {
+    label: '# languages',
+    skills: ['C#', 'JavaScript', 'TypeScript', 'PHP', 'SQL'],
+  },
+  {
+    label: '# frameworks & libraries',
+    skills: ['.NET', 'React', 'Angular', 'Tailwind'],
+  },
+  { label: '# databases', skills: ['SQL Server', 'MySQL', 'PostgreSQL'] },
+  {
+    label: '# tools & platforms',
+    skills: ['Git', 'Datadog', 'Docker', 'Linux'],
+  },
+] as const satisfies readonly SkillGroup[]
+
+function Skills() {
   return (
     <>
       <section

@@ -1,16 +1,16 @@
 import Monitor from './Monitor'
 
-function Hero() {
-  const actions = [
-    { label: './resume', href: './LazarTrajkovski_CV.pdf', external: true },
-    { label: '~/projects', href: '#projects', external: false },
-    {
-      label: 'mail lazar',
-      href: 'mailto:lazar.trajkovski@hotmail.com',
-      external: true,
-    },
-  ]
+const actions = [
+  { label: './resume', href: './LazarTrajkovski_CV.pdf', external: true },
+  { label: '~/projects', href: '#projects', external: false },
+  {
+    label: 'mail lazar',
+    href: 'mailto:lazar.trajkovski@hotmail.com',
+    external: true,
+  },
+]
 
+function Hero() {
   return (
     <>
       <section

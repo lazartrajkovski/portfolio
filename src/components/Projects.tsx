@@ -1,25 +1,24 @@
 import ProjectCard from './ProjectCard'
 import quizlyImage from '../assets/images/quizly.jpg'
+import type { Project } from '../models/Project'
+
+const projects = [
+  {
+    name: 'TimePlanner',
+    description: 'Time tracking and task management application',
+    stack: ['.NET', 'C#', 'PostgreSQL', 'Docker'],
+    codeLink: 'https://github.com/lazartrajkovski/TimePlanner',
+  },
+  {
+    name: 'Quizly',
+    description: 'Quiz application for online studying',
+    stack: ['Strapi', 'Node.js', 'Angular', 'MongoDB'],
+    codeLink: 'https://github.com/lazartrajkovski/Quizly',
+    image: quizlyImage,
+  },
+] as const satisfies readonly Project[]
 
 function Projects() {
-  const projects = [
-    {
-      name: 'TimePlanner',
-      description: 'Time tracking and task management application',
-      stack: ['.NET', 'C#', 'PostgreSQL', 'Docker'],
-      codeLink: 'https://github.com/lazartrajkovski/TimePlanner',
-      liveLink: '',
-      image: '',
-    },
-    {
-      name: 'Quizly',
-      description: 'Quiz application for online studying',
-      stack: ['Strapi', 'Node.js', 'Angular', 'MongoDB'],
-      codeLink: 'https://github.com/lazartrajkovski/Quizly',
-      liveLink: '',
-      image: quizlyImage,
-    },
-  ]
   return (
     <>
       <section
@@ -34,14 +33,7 @@ function Projects() {
         </h2>
         <div className="grid gap-6 md:grid-cols-2">
           {projects.map((project) => (
-            <ProjectCard
-              key={project.name}
-              name={project.name}
-              description={project.description}
-              stack={project.stack}
-              codeLink={project.codeLink}
-              image={project.image}
-            />
+            <ProjectCard key={project.name} project={project} />
           ))}
         </div>
       </section>
