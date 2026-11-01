@@ -2,7 +2,7 @@ function About() {
   const details = [
     { label: 'based in', value: 'Skopje, North Macedonia' },
     { label: 'languages', value: 'English, Macedonian' },
-    { label: 'exploring', value: 'Game Development, Linux, DevOps' },
+    { label: 'exploring', value: 'Linux, DevOps, Game Development' },
     { label: 'status', value: 'open to work', highlight: true },
   ]
   return (
@@ -25,16 +25,15 @@ function About() {
               use. Most of my work is on the web, where I enjoy solving
               interesting problems and creating software that's thoughtful,
               reliable, and easy to maintain.
-            </p>{' '}
+            </p>
             <p>
-              Outside of work, I've recently started experimenting with game
-              development in Godot, along with exploring Linux, DevOps, and
-              system administration. I enjoy tinkering with new technologies,
-              working on personal projects, and learning more about how things
-              work behind the scenes.
-            </p>{' '}
+              Outside of work, I've been diving deeper into Linux, DevOps, and
+              system administration. I enjoy experimenting with new
+              technologies, building personal projects, and understanding how
+              things work behind the scenes. Recently, I've also started
+              exploring game development with Godot.
+            </p>
             <p>
-              {' '}
               I'm currently looking for my next opportunity, somewhere I can put
               my experience to good use, learn from others, and build meaningful
               software with a great team.
